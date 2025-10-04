@@ -126,14 +126,14 @@
 #jojo-search-modal { position: fixed; right: 18px; top: 18px; width: 700px; max-height: 88vh; overflow: auto; background: #07111b; color: #e6eef8; border-radius: 10px; box-shadow: 0 12px 48px rgba(0,0,0,0.7); z-index: 999999; font-family:Segoe UI,Roboto,Helvetica,Arial; padding: 14px; }
 #jojo-search-modal h3{ margin:2px 0 8px 0; font-size:15px; }
 #jojo-search-modal .summary{ font-size:12px; opacity:.9; margin-bottom:10px; }
-.group-section{ border:2px solid rgba(90,160,255,0.18); padding:10px; margin:12px 0; border-radius:8px; background: linear-gradient(180deg, rgba(32,60,100,0.08), rgba(6,18,30,0.06)); }
+.group-section{ border:2px solid rgba(123, 255, 90, 0.90); padding:10px; margin:12px 0; border-radius:8px; background: linear-gradient(180deg, rgba(32,60,100,0.08), rgba(39, 100, 161, 0.58)); }
 .group-header{ display:flex; align-items:center; gap:12px; }
 .gtitle{ font-weight:700; color:#dbefff; font-size:13px; }
 .group-meta{ font-size:12px; color:#9fb6d6; margin-left:8px; white-space:nowrap; }
 .group-controls{ margin-left:auto; display:flex; gap:8px; align-items:center; }
 .group-list{ margin-top:8px; max-height:260px; overflow:auto; padding-left:6px; }
-.jojo-row{ display:flex; align-items:center; gap:10px; padding:6px 4px; border-radius:4px; }
-.jojo-row:hover{ background: rgba(255,255,255,0.02); }
+.jojo-row{ display:flex; align-items:center; gap:10px; padding:6px 4px; border-radius:4px; background: transparent !important; }
+.jojo-row:hover{ background: rgba(255, 255, 255, 1.00) !important; }
 .jojo-checkbox{ width:16px; height:16px; cursor:pointer; }
 .jojo-title{ flex:1; font-size:13px; line-height:1.3; color:#dceefe; word-break:break-word; cursor:pointer; user-select:none; }
 #jojo-actions{ display:flex; gap:8px; margin-top:8px; align-items:center; }
@@ -146,6 +146,7 @@
 .group-btn{ padding:6px 10px; border-radius:6px; background:#2b6bff; color:#fff; border:none; cursor:pointer; font-size:12px; }
 .group-btn.alt{ background:#666; }
 `
+
     document.head.appendChild(style)
 
     const modal = document.createElement('div')
