@@ -333,7 +333,7 @@
   // 主流程
   const anchors = findShowAnchors()
   if (!anchors.length) {
-    alert('未在当前页面找到符合 show-*.html 的链接。')
+    alert('未在当前页面找到特征码')
     return
   }
   const items = anchors.map(a => ({
